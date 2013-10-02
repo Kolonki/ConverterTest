@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="16" passed="16">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="32652" started-at="2013-10-02T19:35:36Z" finished-at="2013-10-02T19:36:09Z">
+    <groups>
+    </groups>
+    <test name="TestChrome" duration-ms="26939" started-at="2013-10-02T19:35:36Z" finished-at="2013-10-02T19:36:03Z">
+      <class name="com.technopark.ConverterTest">
+        <test-method status="PASS" signature="bigNumberTest()[pri:0, instance:com.technopark.ConverterTest@106caf16]" name="bigNumberTest" duration-ms="2862" started-at="2013-10-02T23:35:36Z" finished-at="2013-10-02T23:35:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bigNumberTest -->
+        <test-method status="PASS" signature="correctInputTest()[pri:0, instance:com.technopark.ConverterTest@106caf16]" name="correctInputTest" duration-ms="3406" started-at="2013-10-02T23:35:40Z" finished-at="2013-10-02T23:35:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- correctInputTest -->
+        <test-method status="PASS" signature="emptyTest()[pri:0, instance:com.technopark.ConverterTest@106caf16]" name="emptyTest" duration-ms="2578" started-at="2013-10-02T23:35:44Z" finished-at="2013-10-02T23:35:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyTest -->
+        <test-method status="PASS" signature="floatTest()[pri:0, instance:com.technopark.ConverterTest@106caf16]" name="floatTest" duration-ms="2333" started-at="2013-10-02T23:35:47Z" finished-at="2013-10-02T23:35:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- floatTest -->
+        <test-method status="PASS" signature="negativeTest()[pri:0, instance:com.technopark.ConverterTest@106caf16]" name="negativeTest" duration-ms="2888" started-at="2013-10-02T23:35:50Z" finished-at="2013-10-02T23:35:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeTest -->
+        <test-method status="PASS" signature="oneTest()[pri:0, instance:com.technopark.ConverterTest@106caf16]" name="oneTest" duration-ms="3521" started-at="2013-10-02T23:35:53Z" finished-at="2013-10-02T23:35:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oneTest -->
+        <test-method status="PASS" signature="wordTest()[pri:0, instance:com.technopark.ConverterTest@106caf16]" name="wordTest" duration-ms="2350" started-at="2013-10-02T23:35:57Z" finished-at="2013-10-02T23:35:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wordTest -->
+        <test-method status="PASS" signature="zeroTest()[pri:0, instance:com.technopark.ConverterTest@106caf16]" name="zeroTest" duration-ms="2461" started-at="2013-10-02T23:36:00Z" finished-at="2013-10-02T23:36:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- zeroTest -->
+      </class> <!-- com.technopark.ConverterTest -->
+    </test> <!-- TestChrome -->
+    <test name="TestFF" duration-ms="32652" started-at="2013-10-02T19:35:36Z" finished-at="2013-10-02T19:36:09Z">
+      <class name="com.technopark.ConverterTest">
+        <test-method status="PASS" signature="bigNumberTest()[pri:0, instance:com.technopark.ConverterTest@3295cfbe]" name="bigNumberTest" duration-ms="9902" started-at="2013-10-02T23:35:36Z" finished-at="2013-10-02T23:35:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bigNumberTest -->
+        <test-method status="PASS" signature="correctInputTest()[pri:0, instance:com.technopark.ConverterTest@3295cfbe]" name="correctInputTest" duration-ms="3380" started-at="2013-10-02T23:35:46Z" finished-at="2013-10-02T23:35:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- correctInputTest -->
+        <test-method status="PASS" signature="emptyTest()[pri:0, instance:com.technopark.ConverterTest@3295cfbe]" name="emptyTest" duration-ms="3321" started-at="2013-10-02T23:35:50Z" finished-at="2013-10-02T23:35:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyTest -->
+        <test-method status="PASS" signature="floatTest()[pri:0, instance:com.technopark.ConverterTest@3295cfbe]" name="floatTest" duration-ms="3302" started-at="2013-10-02T23:35:53Z" finished-at="2013-10-02T23:35:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- floatTest -->
+        <test-method status="PASS" signature="negativeTest()[pri:0, instance:com.technopark.ConverterTest@3295cfbe]" name="negativeTest" duration-ms="3270" started-at="2013-10-02T23:35:56Z" finished-at="2013-10-02T23:36:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeTest -->
+        <test-method status="PASS" signature="oneTest()[pri:0, instance:com.technopark.ConverterTest@3295cfbe]" name="oneTest" duration-ms="3066" started-at="2013-10-02T23:36:00Z" finished-at="2013-10-02T23:36:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oneTest -->
+        <test-method status="PASS" signature="wordTest()[pri:0, instance:com.technopark.ConverterTest@3295cfbe]" name="wordTest" duration-ms="2786" started-at="2013-10-02T23:36:03Z" finished-at="2013-10-02T23:36:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wordTest -->
+        <test-method status="PASS" signature="zeroTest()[pri:0, instance:com.technopark.ConverterTest@3295cfbe]" name="zeroTest" duration-ms="2952" started-at="2013-10-02T23:36:06Z" finished-at="2013-10-02T23:36:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- zeroTest -->
+      </class> <!-- com.technopark.ConverterTest -->
+    </test> <!-- TestFF -->
+  </suite> <!-- Suite -->
+</testng-results>

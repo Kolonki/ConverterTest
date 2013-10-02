@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="tests">
+  <parameter name="browserName" value="firefox"/>
+  <listeners>
+    <listener class-name="com.technopark.WebDriverListener"/>
+  </listeners>
+  <test name="Test2(failed)" parallel="tests">
+    <parameter name="browserName" value="firefox"/>
+    <classes>
+      <class name="com.technopark.ConverterTest">
+        <methods>
+          <include name="bigNumberTest"/>
+        </methods>
+      </class> <!-- com.technopark.ConverterTest -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->
