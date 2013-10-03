@@ -26,7 +26,7 @@ public class ConverterTest {
 		ConverterPage page = new ConverterPage(LocalDriverManager.getDriver());
 		
 		page.typeInput("  ");
-		Assert.assertFalse(page.isInputCorrect());
+		Assert.assertFalse(page.outputColor().equals("rgba(0, 0, 0, 1)"));
 	}
 	
 	@Test
@@ -55,7 +55,7 @@ public class ConverterTest {
 		ConverterPage page = new ConverterPage(LocalDriverManager.getDriver());
 		
 		page.typeInput("-5");
-		Assert.assertFalse(page.isInputCorrect());
+		Assert.assertFalse(page.outputColor().equals("rgba(0, 0, 0, 1)"));
 	}
 	
 	@Test
@@ -64,7 +64,7 @@ public class ConverterTest {
 		ConverterPage page = new ConverterPage(LocalDriverManager.getDriver());
 		
 		page.typeInput("hello");
-		Assert.assertFalse( page.isInputCorrect() );
+		Assert.assertFalse(page.outputColor().equals("rgba(0, 0, 0, 1)"));
 	}
 	
 	@Test
@@ -73,7 +73,7 @@ public class ConverterTest {
 		ConverterPage page = new ConverterPage(LocalDriverManager.getDriver());
 		
 		page.typeInput("120");
-		Assert.assertTrue( page.isInputCorrect() );
+		Assert.assertTrue( page.outputColor().equals("rgba(0, 0, 0, 1)"));
 	}
 	
 	@Test

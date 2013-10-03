@@ -35,10 +35,8 @@ public class ConverterPage {
 		
 	}
 	
-	public boolean isInputCorrect () {
+	public String outputColor () {
 		WebElement element = driver.findElement(inputLocator);
-		System.out.println(element.getCssValue("color") );
-		
-		return (element.getCssValue("color").equals("rgba(0, 0, 0, 1)"));
+		return element.getCssValue("color");
 	}
 }
